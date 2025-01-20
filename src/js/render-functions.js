@@ -22,21 +22,6 @@ export const createGalleryCard = imgInfo =>{
 };
 
 
-// //<p class="stats-item">
-// <i class="material-icons">thumb_up</i>
-// {{likes}}
-// </p>
-// <p class="stats-item">
-// <i class="material-icons">visibility</i>
-// {{views}}
-// </p>
-// <p class="stats-item">
-// <i class="material-icons">comment</i>
-// {{comments}}
-// </p>
-// <p class="stats-item">
-// <i class="material-icons">cloud_download</i>
-// {{downloads}} 
 
 export const toggleClass = function(elem, className){
     return elem.classList.toggle(className)

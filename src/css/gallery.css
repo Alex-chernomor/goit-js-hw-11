@@ -74,7 +74,6 @@ input {
 
 .stats {
   width: 360px;
-  /* padding: 40px; */
   color: black;
   display: flex;
   align-items: center;
