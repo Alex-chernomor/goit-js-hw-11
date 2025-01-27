@@ -27,7 +27,7 @@ const searchSubmit = e =>{
         return;
     };
 
-    setTimeout(()=>{
+    
         fetchImgByQury(inputValue)
         .then(data=>{
             if(data.total === 0){
@@ -53,7 +53,7 @@ const searchSubmit = e =>{
         })    
            .catch(err=>console.log(err));
     
-    },400)
+ 
 };
 
 formEl.addEventListener('submit', searchSubmit);
